@@ -1,8 +1,8 @@
-name: Update IP List
+#name: Update IP List
 
-on:
+#on:
   #schedule:
-    #- cron: '0 */6 * * *' # 每6小时运行一次
+    - cron: '0 */6 * * *' # 每6小时运行一次
   workflow_dispatch: # 允许手动触发
   #push: # 允许提交触发
 
